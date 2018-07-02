@@ -1,0 +1,226 @@
+Running as user 'root' is a security risk.
+2018-07-02 21:09:37,752 25561 INFO ? odoo: Odoo version 11.0
+2018-07-02 21:09:37,752 25561 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf
+2018-07-02 21:09:37,753 25561 INFO ? odoo: addons paths: ['/home/carranz/.local/share/Odoo/addons/11.0', '/home/carranz/odoo/addons', '/home/carranz/odoo/custom_addons', '/home/carranz/odoo/themes', '/home/carranz/odoo/odoo/addons']
+2018-07-02 21:09:37,753 25561 INFO ? odoo: database: odoo@localhost:5432
+2018-07-02 21:09:37,767 25561 INFO ? odoo.service.server: HTTP service (werkzeug) running on arches:8069
+2018-07-02 21:09:37,866 25561 INFO ? odoo.addons.base.ir.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf
+2018-07-02 21:09:58,223 25561 INFO ? odoo.http: HTTP Configuring static files
+2018-07-02 21:09:58,244 25561 INFO igmdb odoo.modules.loading: loading 1 modules...
+2018-07-02 21:09:58,265 25561 INFO igmdb odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries
+2018-07-02 21:09:58,297 25561 INFO igmdb odoo.modules.loading: loading 42 modules...
+2018-07-02 21:09:58,478 25561 INFO igmdb odoo.modules.loading: 42 modules loaded in 0.18s, 0 queries
+2018-07-02 21:09:59,204 25561 INFO igmdb odoo.modules.loading: Modules loaded.
+2018-07-02 21:09:59,209 25561 INFO igmdb odoo.addons.base.ir.ir_http: Generating routing map
+2018-07-02 21:09:59,337 25561 INFO igmdb odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-07-02 21:09:59,338 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:09:59] "GET / HTTP/1.1" 303 -
+2018-07-02 21:10:02,163 25561 INFO igmdb odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [872, 871]
+2018-07-02 21:10:03,025 25561 INFO igmdb odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [873]
+2018-07-02 21:10:03,196 25561 INFO igmdb odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2018-07-02 21:10:03,197 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:03] "GET /web HTTP/1.1" 200 -
+2018-07-02 21:10:03,339 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:03] "GET /web/content/881-bf83a00/web.assets_backend.js HTTP/1.1" 200 -
+2018-07-02 21:10:03,347 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:03] "GET /web/content/879-bf83a00/web.assets_backend.0.css HTTP/1.1" 200 -
+2018-07-02 21:10:03,348 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:03] "GET /web/content/880-bf83a00/web.assets_backend.1.css HTTP/1.1" 200 -
+2018-07-02 21:10:03,358 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:03] "GET /web/content/851-0ef234f/web.assets_common.0.css HTTP/1.1" 304 -
+2018-07-02 21:10:03,360 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:03] "GET /web/content/858-7902b9a/web_editor.summernote.0.css HTTP/1.1" 304 -
+2018-07-02 21:10:03,366 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:03] "GET /web/content/859-edf0068/web_editor.assets_editor.0.css HTTP/1.1" 304 -
+2018-07-02 21:10:03,505 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:03] "GET /web/content/854-0ef234f/web.assets_common.js HTTP/1.1" 304 -
+2018-07-02 21:10:03,511 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:03] "GET /web/content/861-7902b9a/web_editor.summernote.js HTTP/1.1" 304 -
+2018-07-02 21:10:03,515 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:03] "GET /web/content/862-edf0068/web_editor.assets_editor.js HTTP/1.1" 304 -
+2018-07-02 21:10:03,672 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:03] "GET /web/image/ir.ui.menu/83/web_icon_data HTTP/1.1" 304 -
+2018-07-02 21:10:03,682 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:03] "GET /web/image/ir.ui.menu/144/web_icon_data HTTP/1.1" 304 -
+2018-07-02 21:10:03,690 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:03] "GET /web/image/ir.ui.menu/77/web_icon_data HTTP/1.1" 304 -
+2018-07-02 21:10:03,694 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:03] "GET /web/image/ir.ui.menu/230/web_icon_data HTTP/1.1" 304 -
+2018-07-02 21:10:03,701 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:03] "GET /web/image/ir.ui.menu/244/web_icon_data HTTP/1.1" 304 -
+2018-07-02 21:10:03,704 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:03] "GET /web/image/ir.ui.menu/122/web_icon_data HTTP/1.1" 304 -
+2018-07-02 21:10:03,779 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:03] "GET /web/image/ir.ui.menu/212/web_icon_data HTTP/1.1" 304 -
+2018-07-02 21:10:03,783 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:03] "GET /web/image/ir.ui.menu/5/web_icon_data HTTP/1.1" 304 -
+2018-07-02 21:10:03,792 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:03] "GET /web/image/ir.ui.menu/4/web_icon_data HTTP/1.1" 304 -
+2018-07-02 21:10:03,795 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:03] "GET /web/binary/company_logo HTTP/1.1" 200 -
+2018-07-02 21:10:04,018 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:04] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2018-07-02 21:10:04,037 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:04] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 -
+2018-07-02 21:10:04,045 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:04] "POST /web/dataset/call HTTP/1.1" 200 -
+2018-07-02 21:10:04,051 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:04] "GET /dashboard HTTP/1.1" 302 -
+2018-07-02 21:10:04,136 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:04] "GET /backend_theme_v11/static/src/font/Roboto-Regular.ttf HTTP/1.1" 200 -
+2018-07-02 21:10:04,172 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:04] "GET /backend_theme_v11/static/src/img/material-background.jpg HTTP/1.1" 200 -
+2018-07-02 21:10:04,192 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:04] "GET /web/webclient/qweb?mods=web,base,bus,web_tour,mail,product,portal,web_planner,project,barcodes,stock,hr,hr_timesheet,account,account_invoicing,account_bank_statement_import,auth_signup,web_responsive,backend_theme_v11,base_import,iap,l10n_es,payment,payment_transfer,sms,web_diagram,web_editor,web_kanban_gauge,web_settings_dashboard,fleet HTTP/1.1" 200 -
+2018-07-02 21:10:04,534 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:04] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-07-02 21:10:04,640 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:04] "GET /web/webclient/locale/es_ES HTTP/1.1" 200 -
+2018-07-02 21:10:04,796 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:04] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2018-07-02 21:10:04,811 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:04] "POST /web/dataset/call_kw/res.users/activity_user_count HTTP/1.1" 200 -
+2018-07-02 21:10:04,817 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:04] "GET /web/binary/company_logo?db=igmdb&company=1 HTTP/1.1" 200 -
+2018-07-02 21:10:04,835 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:04] "GET /web/image?model=res.users&field=image_small&id=1 HTTP/1.1" 304 -
+2018-07-02 21:10:04,855 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:04] "POST /mail/client_action HTTP/1.1" 200 -
+2018-07-02 21:10:04,909 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:04] "GET /base/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:04,923 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:04] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-02 21:10:04,945 25561 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres
+2018-07-02 21:10:04,994 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:04] "POST /web/dataset/call_kw/web.planner/search_read HTTP/1.1" 200 -
+2018-07-02 21:10:05,044 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:05] "POST /web/dataset/call_kw/mail.message/load_views HTTP/1.1" 200 -
+2018-07-02 21:10:05,159 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:05] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-07-02 21:10:05,293 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:05] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 -
+2018-07-02 21:10:05,574 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:05] "GET /mail/static/src/img/email_icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:05,607 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:05] "GET /web/image/res.partner/9/image_small HTTP/1.1" 304 -
+2018-07-02 21:10:05,611 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:05] "GET /web/image/res.partner/6/image_small HTTP/1.1" 304 -
+2018-07-02 21:10:05,618 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:05] "GET /web/static/src/img/mimetypes/document.png HTTP/1.1" 200 -
+2018-07-02 21:10:05,620 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:05] "GET /web/image/res.partner/10/image_small HTTP/1.1" 304 -
+2018-07-02 21:10:05,622 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:05] "GET /web/image/res.partner/8/image_small HTTP/1.1" 304 -
+2018-07-02 21:10:17,570 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:17] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-02 21:10:17,769 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:17] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 -
+2018-07-02 21:10:17,938 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:17] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-02 21:10:18,289 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /crm/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,290 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /project/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,297 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /stock/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,298 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /mrp/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,299 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /sale_management/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,434 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,482 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,483 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /mail/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,484 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /hr_timesheet/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,484 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /account_invoicing/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,581 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /note/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,640 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /website/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,641 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /hr/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,642 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /purchase/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,643 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /website_sale/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,646 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,746 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /hr_expense/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,746 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,748 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /board/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,748 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /contacts/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,750 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /survey/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,852 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,854 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /lunch/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,855 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /website_blog/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,856 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /maintenance/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,857 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /calendar/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,941 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /website_slides/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,943 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /website_forum/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,944 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /fleet/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,944 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /website_event/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:18,945 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:18] "GET /im_livechat/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:19,028 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:19] "GET /mrp_repair/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:24,844 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:24] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-02 21:10:25,181 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:25] "GET /backend_theme_v11/static/description/icon.png HTTP/1.1" 200 -
+2018-07-02 21:10:25,195 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:25] "GET /account_asset/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:25,196 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:25] "GET /website_crm/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:25,197 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:25] "GET /hr_payroll/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:25,198 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:25] "GET /account_check_printing/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:28,311 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:28] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-02 21:10:28,488 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:28] "GET /test_exceptions/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:10:38,000 25561 INFO igmdb odoo.addons.base.ir.ir_cron: Starting job `Fleet: Generate contracts costs based on costs frequency`.
+2018-07-02 21:10:38,167 25561 INFO igmdb odoo.addons.base.ir.ir_cron: Starting job `Base: Auto-vacuum internal data`.
+2018-07-02 21:10:38,191 25561 INFO igmdb odoo.addons.base.ir.ir_attachment: filestore gc 37 checked, 11 removed
+2018-07-02 21:10:38,224 25561 INFO igmdb odoo.models.unlink: User #1 deleted mail.compose.message records with IDs: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+2018-07-02 21:10:38,254 25561 INFO igmdb odoo.models.unlink: User #1 deleted base.module.update records with IDs: [1, 2, 3, 4, 5]
+2018-07-02 21:10:38,267 25561 INFO igmdb odoo.models.unlink: User #1 deleted base.module.uninstall records with IDs: [2]
+2018-07-02 21:10:38,294 25561 INFO igmdb odoo.addons.base.ir.ir_autovacuum: GC'd 3 user log entries
+2018-07-02 21:10:38,296 25561 INFO igmdb odoo.addons.base.ir.ir_cron: Starting job `Procurement: run scheduler`.
+2018-07-02 21:10:38,443 25561 INFO igmdb odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-07-02 21:10:54,947 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:10:54] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-07-02 21:11:02,202 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:02] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-02 21:11:02,472 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:02] "GET /calendar/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:11:02,473 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:02] "GET /fleet/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:11:02,475 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:02] "GET /website_event/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:11:02,475 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:02] "GET /mrp_repair/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:11:02,481 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:02] "GET /survey/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:11:02,515 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:02] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:11:02,519 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:02] "GET /lunch/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:11:02,520 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:02] "GET /maintenance/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:11:02,521 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:02] "GET /website_blog/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:11:02,522 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:02] "GET /website_slides/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:11:02,549 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:02] "GET /website_forum/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:11:02,557 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:02] "GET /im_livechat/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:11:07,768 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:07] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-02 21:11:07,842 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:07] "POST /web_settings_dashboard/data HTTP/1.1" 200 -
+2018-07-02 21:11:07,912 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:07] "POST /web/dataset/call_kw HTTP/1.1" 200 -
+2018-07-02 21:11:07,932 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:07] "POST /web/dataset/call_kw/web.planner/search_read HTTP/1.1" 200 -
+2018-07-02 21:11:10,596 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:10] "GET /web?debug HTTP/1.1" 200 -
+2018-07-02 21:11:10,756 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:10] "GET /web/content/851-0ef234f/web.assets_common.0.css HTTP/1.1" 304 -
+2018-07-02 21:11:10,767 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:10] "GET /web/content/858-7902b9a/web_editor.summernote.0.css HTTP/1.1" 304 -
+2018-07-02 21:11:10,771 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:10] "GET /web/content/859-edf0068/web_editor.assets_editor.0.css HTTP/1.1" 304 -
+2018-07-02 21:11:10,777 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:10] "GET /web/content/861-7902b9a/web_editor.summernote.js HTTP/1.1" 304 -
+2018-07-02 21:11:10,781 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:10] "GET /web/content/854-0ef234f/web.assets_common.js HTTP/1.1" 304 -
+2018-07-02 21:11:10,786 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:10] "GET /web/content/862-edf0068/web_editor.assets_editor.js HTTP/1.1" 304 -
+2018-07-02 21:11:11,266 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:11] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2018-07-02 21:11:11,268 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:11] "POST /web/dataset/call HTTP/1.1" 200 -
+2018-07-02 21:11:11,329 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:11] "GET /web/image/ir.ui.menu/83/web_icon_data HTTP/1.1" 304 -
+2018-07-02 21:11:11,330 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:11] "GET /web/image/ir.ui.menu/144/web_icon_data HTTP/1.1" 304 -
+2018-07-02 21:11:11,331 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:11] "GET /web/image/ir.ui.menu/77/web_icon_data HTTP/1.1" 304 -
+2018-07-02 21:11:11,345 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:11] "GET /web/image/ir.ui.menu/244/web_icon_data HTTP/1.1" 304 -
+2018-07-02 21:11:11,359 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:11] "GET /web/image/ir.ui.menu/230/web_icon_data HTTP/1.1" 304 -
+2018-07-02 21:11:11,391 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:11] "GET /web/webclient/qweb?mods=web,base,bus,web_tour,mail,product,portal,web_planner,project,barcodes,stock,hr,hr_timesheet,account,account_invoicing,account_bank_statement_import,auth_signup,web_responsive,backend_theme_v11,base_import,iap,l10n_es,payment,payment_transfer,sms,web_diagram,web_editor,web_kanban_gauge,web_settings_dashboard,fleet HTTP/1.1" 304 -
+2018-07-02 21:11:11,413 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:11] "GET /web/image/ir.ui.menu/212/web_icon_data HTTP/1.1" 304 -
+2018-07-02 21:11:11,414 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:11] "GET /web/image/ir.ui.menu/122/web_icon_data HTTP/1.1" 304 -
+2018-07-02 21:11:11,419 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:11] "GET /web/image/ir.ui.menu/5/web_icon_data HTTP/1.1" 304 -
+2018-07-02 21:11:11,424 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:11] "GET /web/image/ir.ui.menu/4/web_icon_data HTTP/1.1" 304 -
+2018-07-02 21:11:11,602 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:11] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-07-02 21:11:11,835 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:11] "POST /web/dataset/call_kw/res.users/check_access_rights HTTP/1.1" 200 -
+2018-07-02 21:11:11,840 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:11] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 -
+2018-07-02 21:11:11,842 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:11] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 -
+2018-07-02 21:11:11,844 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:11] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-07-02 21:11:11,853 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:11] "POST /mail/client_action HTTP/1.1" 200 -
+2018-07-02 21:11:11,855 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:11] "POST /web/dataset/call_kw/res.users/activity_user_count HTTP/1.1" 200 -
+2018-07-02 21:11:11,884 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:11] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2018-07-02 21:11:11,893 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:11] "GET /web/image?model=res.users&field=image_small&id=1 HTTP/1.1" 304 -
+2018-07-02 21:11:12,005 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:12] "GET /base/static/description/icon.png HTTP/1.1" 304 -
+2018-07-02 21:11:12,005 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:12] "POST /web/dataset/call_kw/web.planner/search_read HTTP/1.1" 200 -
+2018-07-02 21:11:12,020 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:12] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-02 21:11:12,112 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:12] "POST /web/dataset/call_kw/mail.message/load_views HTTP/1.1" 200 -
+2018-07-02 21:11:12,240 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:12] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-07-02 21:11:12,370 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:12] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 -
+2018-07-02 21:11:12,654 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:12] "GET /web/image/res.partner/10/image_small HTTP/1.1" 304 -
+2018-07-02 21:11:12,658 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:12] "GET /web/image/res.partner/6/image_small HTTP/1.1" 304 -
+2018-07-02 21:11:12,673 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:12] "GET /web/image/res.partner/9/image_small HTTP/1.1" 304 -
+2018-07-02 21:11:12,675 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:12] "GET /web/image/res.partner/8/image_small HTTP/1.1" 304 -
+2018-07-02 21:11:13,781 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:13] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-02 21:11:13,907 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:13] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 -
+2018-07-02 21:11:14,081 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:14] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-02 21:11:17,405 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:17] "POST /web/action/load HTTP/1.1" 200 -
+2018-07-02 21:11:17,504 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:17] "POST /web/dataset/call_kw/base.module.update/load_views HTTP/1.1" 200 -
+2018-07-02 21:11:17,559 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:17] "POST /web/dataset/call_kw/base.module.update/default_get HTTP/1.1" 200 -
+2018-07-02 21:11:17,648 25561 INFO ? werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:17] "GET /web/static/src/xml/dialog.xml?debug=1530565877630 HTTP/1.1" 200 -
+2018-07-02 21:11:17,734 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:17] "POST /web/dataset/call_kw/res.users/check_access_rights HTTP/1.1" 200 -
+2018-07-02 21:11:17,736 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:17] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 -
+2018-07-02 21:11:17,738 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:17] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-07-02 21:11:19,366 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:19] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 -
+2018-07-02 21:11:19,477 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:19] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 -
+2018-07-02 21:11:19,535 25561 INFO igmdb odoo.addons.base.module.module: ALLOW access to module.update_list on [] to user carlos.arranz@sinensia.com #1 via 10.250.100.250
+2018-07-02 21:11:20,134 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:20] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-07-02 21:11:23,444 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:23] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-02 21:11:29,637 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:29] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-07-02 21:11:40,149 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:40] "POST /web/dataset/call_kw/base.module.update/default_get HTTP/1.1" 200 -
+2018-07-02 21:11:40,299 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:40] "POST /web/dataset/call_kw/res.users/check_access_rights HTTP/1.1" 200 -
+2018-07-02 21:11:40,301 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:40] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 -
+2018-07-02 21:11:40,303 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:40] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-07-02 21:11:41,592 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:41] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 -
+2018-07-02 21:11:41,639 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:41] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 -
+2018-07-02 21:11:41,714 25561 INFO igmdb odoo.addons.base.module.module: ALLOW access to module.update_list on [] to user carlos.arranz@sinensia.com #1 via 10.250.100.250
+2018-07-02 21:11:42,402 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:42] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-07-02 21:11:45,014 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:45] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-07-02 21:11:46,894 25561 WARNING igmdb odoo.modules.module: module test_module: module not found
+2018-07-02 21:11:46,948 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:46] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 -
+2018-07-02 21:11:47,034 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:47] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 -
+2018-07-02 21:11:47,138 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:11:47] "POST /web/dataset/call_kw/ir.module.category/name_search HTTP/1.1" 200 -
+2018-07-02 21:12:00,427 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:12:00] "POST /web/dataset/call_kw/base.module.update/default_get HTTP/1.1" 200 -
+2018-07-02 21:12:00,561 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:12:00] "POST /web/dataset/call_kw/res.users/check_access_rights HTTP/1.1" 200 -
+2018-07-02 21:12:00,563 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:12:00] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-07-02 21:12:00,565 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:12:00] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 -
+2018-07-02 21:12:02,013 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:12:02] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-07-02 21:12:02,573 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:12:02] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 -
+2018-07-02 21:12:02,659 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:12:02] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 -
+2018-07-02 21:12:02,716 25561 INFO igmdb odoo.addons.base.module.module: ALLOW access to module.update_list on [] to user carlos.arranz@sinensia.com #1 via 10.250.100.250
+2018-07-02 21:12:03,300 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:12:03] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-07-02 21:12:52,096 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:12:52] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-07-02 21:13:38,544 25561 INFO igmdb odoo.addons.base.ir.ir_cron: Starting job `Mail: Email Queue Manager`.
+2018-07-02 21:13:42,166 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:13:42] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-07-02 21:14:32,238 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:14:32] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-07-02 21:15:22,309 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:15:22] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-07-02 21:16:12,380 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:16:12] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-07-02 21:17:02,438 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:17:02] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-07-02 21:17:52,494 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:17:52] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-07-02 21:18:42,544 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:18:42] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-07-02 21:19:32,594 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:19:32] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-07-02 21:20:22,642 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:20:22] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-07-02 21:21:12,688 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:21:12] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-07-02 21:22:02,733 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:22:02] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-07-02 21:22:52,788 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:22:52] "POST /longpolling/poll HTTP/1.1" 200 -

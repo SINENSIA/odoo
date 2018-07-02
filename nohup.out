@@ -224,3 +224,4 @@ Running as user 'root' is a security risk.
 2018-07-02 21:21:12,688 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:21:12] "POST /longpolling/poll HTTP/1.1" 200 -
 2018-07-02 21:22:02,733 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:22:02] "POST /longpolling/poll HTTP/1.1" 200 -
 2018-07-02 21:22:52,788 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:22:52] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-07-02 21:25:36,945 25561 INFO igmdb werkzeug: 10.250.100.250 - - [02/Jul/2018 21:25:36] "POST /longpolling/poll HTTP/1.1" 200 -

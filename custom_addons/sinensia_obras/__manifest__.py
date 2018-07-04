@@ -3,24 +3,24 @@
     'name': "sinensia_obras",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
+        Modulo para controlar obras
         subtitle on modules listing or apps.openerp.com""",
 
     'description': """
-        Long description of module's purpose
+        Este módulo se encarga de gestionar todas las obras y sus proyectos
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "SINENSIA IT SOLUTIONS",
+    'website': "https://www.sinensia.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
     # for the full list
-    'category': 'Uncategorized',
+    'category': 'Project Management',
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base', 'project', 'hr_expense', 'hr_timesheet'],
 
     # always loaded
     'data': [

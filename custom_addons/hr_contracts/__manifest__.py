@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "hr_contracts",
+    'name': "hr_contracts_social_security",
 
     'summary': """
         Short (1 phrase/line) summary of the module's purpose, used as

@@ -6,7 +6,7 @@ from odoo import models, fields, api
 class SocialSecurity(models.Model):
     _name = 'hr_contract.social_security'
 
-    x_ss_scheme = fields.Selection(selection_add=[('GENERAL_SCHEME', 'General Scheme'), ('OTHERS', 'Others')])
+    x_ss_scheme = fields.Selection([('GENERAL_SCHEME', 'General Scheme'), ('OTHERS', 'Others')])
 
 # class hr_contracts(models.Model):
 #     _name = 'hr_contracts.hr_contracts'

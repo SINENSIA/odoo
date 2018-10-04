@@ -130,7 +130,7 @@ class TestServerActions(TestServerActionsBase):
         self.assertEqual(len(partner), 1, 'ir_actions_server: TODO')
         self.assertEqual(partner.city, 'OrigCity', 'ir_actions_server: TODO')
 
-    @mute_logger('odoo.addons.base.ir.ir_model', 'odoo.models')
+    @mute_logger('odoo.addons.base.models.ir_model', 'odoo.models')
     def test_40_multi(self):
         # Data: 2 server actions that will be nested
         action1 = self.action.create({
@@ -185,6 +185,7 @@ class TestActionBindings(common.TransactionCase):
         Actions = self.env['ir.actions.actions']
 
         # first make sure there is no bound action
+        self.env.ref('base.action_partner_merge').unlink()
         bindings = Actions.get_bindings('res.partner')
         self.assertFalse(bindings['action'])
         self.assertFalse(bindings['report'])
@@ -229,6 +230,7 @@ class TestActionBindings(common.TransactionCase):
 
 class TestCustomFields(common.TransactionCase):
     MODEL = 'res.partner'
+    COMODEL = 'res.users'
 
     def setUp(self):
         # check that the registry is properly reset
@@ -241,11 +243,8 @@ class TestCustomFields(common.TransactionCase):
         super(TestCustomFields, self).setUp()
 
         # use a test cursor instead of a real cursor
-        self.registry.enter_test_mode()
+        self.registry.enter_test_mode(self.cr)
         self.addCleanup(self.registry.leave_test_mode)
-
-        # do not reload the registry after removing a field
-        self.env = self.env(context={'_force_unlink': True})
 
     def create_field(self, name):
         """ create a custom field and return it """
@@ -312,6 +311,7 @@ class TestCustomFields(common.TransactionCase):
         field = self.create_field('x_foo')
         field.name = 'x_bar'
 
+    @mute_logger('odoo.addons.base.models.ir_ui_view')
     def test_remove_with_view(self):
         """ try removing a custom field that occurs in a view """
         field = self.create_field('x_foo')
@@ -322,6 +322,7 @@ class TestCustomFields(common.TransactionCase):
             field.unlink()
         self.assertIn('x_foo', self.env[self.MODEL]._fields)
 
+    @mute_logger('odoo.addons.base.models.ir_ui_view')
     def test_rename_with_view(self):
         """ try renaming a custom field that occurs in a view """
         field = self.create_field('x_foo')
@@ -331,3 +332,56 @@ class TestCustomFields(common.TransactionCase):
         with self.assertRaises(UserError):
             field.name = 'x_bar'
         self.assertIn('x_foo', self.env[self.MODEL]._fields)
+
+    def test_unlink_with_inverse(self):
+        """ create a custom o2m and then delete its m2o inverse """
+        model = self.env['ir.model']._get(self.MODEL)
+        comodel = self.env['ir.model']._get(self.COMODEL)
+
+        m2o_field = self.env['ir.model.fields'].create({
+            'model_id': comodel.id,
+            'name': 'x_my_m2o',
+            'field_description': 'my_m2o',
+            'ttype': 'many2one',
+            'relation': self.MODEL,
+        })
+
+        o2m_field = self.env['ir.model.fields'].create({
+            'model_id': model.id,
+            'name': 'x_my_o2m',
+            'field_description': 'my_o2m',
+            'ttype': 'one2many',
+            'relation': self.COMODEL,
+            'relation_field': m2o_field.name,
+        })
+
+        # normal mode: you cannot break dependencies
+        with self.assertRaises(UserError):
+            m2o_field.unlink()
+
+        # uninstall mode: unlink dependant fields
+        m2o_field.with_context(_force_unlink=True).unlink()
+        self.assertFalse(o2m_field.exists())
+
+    def test_unlink_with_dependant(self):
+        """ create a computed field, then delete its dependency """
+        # Also applies to compute fields
+        comodel = self.env['ir.model'].search([('model', '=', self.COMODEL)])
+
+        field = self.create_field('x_my_char')
+
+        dependant = self.env['ir.model.fields'].create({
+            'model_id': comodel.id,
+            'name': 'x_oh_boy',
+            'field_description': 'x_oh_boy',
+            'ttype': 'char',
+            'related': 'partner_id.x_my_char',
+        })
+
+        # normal mode: you cannot break dependencies
+        with self.assertRaises(UserError):
+            field.unlink()
+
+        # uninstall mode: unlink dependant fields
+        field.with_context(_force_unlink=True).unlink()
+        self.assertFalse(dependant.exists())

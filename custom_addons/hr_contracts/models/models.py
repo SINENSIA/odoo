@@ -4,9 +4,11 @@ from odoo import models, fields, api
 
 
 class SocialSecurity(models.Model):
-    _name = 'hr_contract.social_security'
+    _name = 'social_security'
+    _inherit = ['hr.contract'] 
+    contract_type = fields.Char()
+    ss_scheme = fields.Selection(selection=[('GENERAL_SCHEME', 'General Scheme'), ('OTHERS', 'Others')])
 
-    x_ss_scheme = fields.Selection([('GENERAL_SCHEME', 'General Scheme'), ('OTHERS', 'Others')])
 
 # class hr_contracts(models.Model):
 #     _name = 'hr_contracts.hr_contracts'

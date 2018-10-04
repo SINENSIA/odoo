@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "hr_contracts_social_security",
+    'name': "social_security",
 
     'summary': """
         Short (1 phrase/line) summary of the module's purpose, used as
@@ -16,11 +16,11 @@
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
     # for the full list
-    'category': 'Partner',
+    'category': 'Human Resources',
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base', 'hr', 'hr_contract'],
 
     # always loaded
     'data': [
